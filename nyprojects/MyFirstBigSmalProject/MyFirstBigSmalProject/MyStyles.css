@@ -1,0 +1,714 @@
+﻿.background {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url('http://narodensport.eu/wp-content/uploads/2014/03/%D0%BB%D0%BE%D0%B3%D0%BE-%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB6.jpg');
+}
+
+.komentar {
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+}
+
+.border4eto{
+    border: 1px solid black;
+}
+
+.adavidime {
+    border: 1px solid black;
+    background-color: black;
+}
+
+.otboriborder {
+    border: 1px solid black;
+    background-color: lawngreen;
+    color:white;
+}
+
+.otboriborder1 {
+    border: 1px solid black;
+    background-color:yellow;
+    color:red;
+}
+
+.small {
+    color: grey;
+}
+
+.asqde {
+    padding-top: 200px;
+    margin-top: 200px;
+    border: 1px solid black;
+    width: 500px;
+    height: 1000px;
+}
+
+td a {
+    margin-left: 20px;
+}
+
+.backgroundzaglavie {
+    background-color: lawngreen;
+}
+
+.backgroundzaglaviechelsea {
+    background-color: red;
+}
+
+.backgroundzaglavietothnam {
+    background-color: darkblue;
+}
+
+.backgroundzaglaviemonako {
+    background-color: red;
+}
+
+.backgroundzaglaviebayern {
+    background-color: red;
+}
+
+.backgroundzaglaviejuventus {
+    background-color: black;
+}
+
+.backgroundzaglavieborusia {
+    background-color: yellow;
+}
+
+.zaglaviepaddingjuventus {
+    font-size: 40px;
+    color: white;
+}
+
+.backgroundzaglaviemilan {
+    background-color: red;
+}
+
+.backgroundzaglavieludogorec {
+    background-color: green;
+}
+
+.backgroundzaglavienapoli {
+    background-color: aqua;
+}
+
+.button {
+    background-color: lawngreen;
+    color: white;
+}
+
+.backgroundzaglaviinter {
+    background-color: blue;
+}
+
+.novinite {
+    border: 1px solid black;
+    width: 500px;
+    height: 450px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.statii {
+    border: 1px solid black;
+    width: 500px;
+    height: 450px;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+.zaglaviepaddinginter {
+    font-size: 40px;
+    color: black;
+}
+
+.zaglaviepaddingmilan {
+    font-size: 40px;
+    color: black;
+}
+
+.zaglaviepaddingborusia {
+    font-size: 40px;
+    color: black;
+}
+
+.zaglaviepaddingbayern {
+    font-size: 40px;
+    color: white;
+}
+
+.zaglaviepaddingtothnam {
+    font-size: 40px;
+    color: white;
+}
+
+.zaglaviepadding {    
+    font-size: 40px;
+    color: red;
+}
+
+.zaglaviepaddingSiti {
+    font-size: 40px;
+    color: deepskyblue;
+}
+
+.zaglaviepaddingmonako {
+    font-size: 40px;
+    color: white;
+}
+
+.zaglaviepaddingchelsea {
+    font-size: 40px;
+    color: blue;
+}
+
+.zaglaviepaddingatletiko {
+    font-size: 40px;
+    color: blue;
+}
+
+.otboriprimerno {
+    margin-top: 200px;
+    border: 1px solid black;
+    margin-left: 100px;
+    width: 1000px;
+    height: 700px;
+    display: inline-block;
+    background-color: dimgrey;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: lawngreen;
+    display: inline-block;
+}
+
+.teamscontent {
+    display: inline-block;
+}
+.pi6emsi {
+    display: inline-block;
+}
+
+.padding {
+    margin-left: 25px;
+}
+
+.otboricontent {
+    border: 1px solid black;
+    background-color: lightgrey;
+}
+
+.border4e{
+    border: 1px solid black;
+    background-color:dimgrey;
+}
+
+.germaniqdiv {
+    margin-top: 200px;
+    border: 1px solid black;
+}
+
+small {
+    color: gray;
+}
+
+.headerklasirane {
+    border: 1px solid black;
+    background-color: green;
+}
+
+    .headerklasirane:hover {
+        cursor: pointer;
+    }
+
+.kottakova {
+    margin-top: 200px;
+    border: 1px solid black;
+    width: 800px;
+    margin-left: 50px;
+    display: inline-block;
+}
+
+.otbor {
+    margin-top: 150px;
+}
+
+.ob6head {
+    /*position:fixed;*/
+}
+
+.menuhead {
+    background-color: black;
+    height: 50px;
+    width: 2004px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.liniqta {
+    border-color: lawngreen;
+}
+
+.Europe {
+    margin-top: 20px;
+    color: lawngreen;
+}
+
+.EuropeTournaments {
+    margin-top: 20px;
+    color: lawngreen;
+}
+
+    .Europe:before, .EuropeTournaments:before {
+        background-image: url('http://www.smolyandnes.com/media/k2/items/cache/d541d6e6570cecf2a1fb0a813c24bec3_L.jpg');
+        background-size: 25px 15px;
+        display: inline-block;
+        width: 25px;
+        height: 15px;
+        content: "";
+        box-shadow: 0px 5px 5px #888;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+.SouthAmerika, .NorthAmerika {
+    margin-top: 20px;
+    color: lawngreen;
+}
+
+    .NorthAmerika:before {
+        background-image: url('https://static.nova.bg/public/pics/nova/news/980x551_1504171242.jpg');
+        background-size: 25px 15px;
+        display: inline-block;
+        width: 25px;
+        height: 15px;
+        content: "";
+        box-shadow: 0px 5px 5px #888;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .SouthAmerika:before {
+        background-image: url('http://tataroshka.com/wp-content/uploads/2015/03/South-America-countries-flags.jpg');
+        background-size: 25px 15px;
+        display: inline-block;
+        width: 25px;
+        height: 15px;
+        content: "";
+        box-shadow: 0px 5px 5px #888;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+.AngliqVruzka {
+    color: black;
+}
+
+    .AngliqVruzka:hover {
+        color: lawngreen;
+        text-decoration: none;
+    }
+
+.ShampLiga, .LigaEvropa, .SuperCup {
+    display: inline-block;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.Russia, .Holland, .Portugal {
+    display: inline-block;
+    width: 30%;
+    margin-top: 30px;
+}
+
+.Angliq, .Germaniq, .Bulgaria, .Argentina, .Brazil, .Uruguay, .Canada, .Mexico, .USA {
+    display: inline-block;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.Franciq, .Ispaniq, .Italy {
+    display: inline-block;
+    width: 30%;
+    margin-top: 30px;
+}
+
+.Russia:before {
+    background-image: url('https://image.jimcdn.com/app/cms/image/transf/dimension=416x1024:format=gif/path/sa3faf3f14d417f38/image/i1a207526d9b857bb/version/1357704987/image.gif');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.ShampLiga:before {
+    background-image: url('https://webnews.bg/uploads/images/40/2840/242840/768x432.jpg?_=1467782073');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Argentina:before {
+    background-image: url('http://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/600px-Flag_of_Argentina.svg.png');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Holland:before {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmYddkyaF9Xm2ev2OVw8xAe3AgkS5o7flqv8z6cQqB8K9qOdEq');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+}
+
+.Mexico:before {
+    background-image: url('http://lh5.ggpht.com/_KqBjfbs9yJ0/S8DMc95RtSI/AAAAAAAAABU/9xM543SKC5M/bandera-mexicoBBB.jpg');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+}
+
+.USA:before {
+    background-image: url('http://usa.freebg.eu/wp-content/plugins/random-image-widget/usa/flag//United_States_flag.jpg');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+}
+
+.Brazil:before {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/250px-Flag_of_Brazil.svg.png');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+}
+
+.Uruguay:before {
+    background-image: url('http://flagpedia.net/data/flags/ultra/uy.png');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+}
+
+.LigaEvropa:before {
+    background-image: url('http://plovdivnews.net/media/k2/items/cache/d12b06a27db943646a599a86ea7580b6_XL.jpg');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+}
+
+.SuperCup:before {
+    background-image: url('http://www.focus-sport.net/img/articles/2013/12/1387723554.jpg');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+}
+
+.Portugal:before {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/1280px-Flag_of_Portugal.svg.png');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+}
+
+.Italy:before {
+    background-image: url('http://lakritsboden.com/images/manu-1410522134-Flaggor_Italien_1.jpg');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+}
+
+.Bulgaria:before {
+    background-image: url('http://www.omda.bg/uploaded_files/pics/articles/flag.jpg');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+}
+
+.Angliq:before {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/Flag_of_England.svg/200px-Flag_of_England.svg.png');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Canada:before {
+    background-image: url('http://darbi.eu/images/visshe/flagove/canada-flag.jpg');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.Franciq:before {
+    background-image: url('http://darbi.eu/images/visshe/flagove/fr-flag.jpg');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+}
+
+.Germaniq:before {
+    background-image: url('https://rual-travel.com/uploads/destinations/big_flag_153.png');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+}
+
+.Ispaniq:before {
+    background-image: url('http://www.bgits.com/images/flagove/flag-spain.jpg');
+    background-size: 25px 15px;
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    content: "";
+    box-shadow: 0px 5px 5px #888;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.purvenstvoIme {
+    background-color: greenyellow;
+    color: black;
+    /*border-radius:10px;*/
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 100px;
+    height: 25px;
+    padding-left: 6px;
+    z-index: 1;
+}
+
+.purvenstvaLayOut {
+    width: 560px;
+    height: 800px;
+    border: 1px solid black;
+    margin-left: 30%;
+    margin-top: 200px;
+    background-color: white;
+}
+
+.cherveno {
+    z-index: 0;
+    background-color: red;
+}
+
+.Barselona {
+    width: 60px;
+    height: 50px;
+    padding-top: 7px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.Monako {
+    width: 60px;
+    height: 50px;
+    padding-top: 7px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.liverpool {
+    width: 40px;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 40px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.Chelsea {
+    width: 40px;
+    height: 45px;
+    padding-top: 7px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+    .Chelsea:hover {
+        width: 50px;
+        height: 55px;
+        padding-top: 7px;
+        text-decoration: none;
+        padding-left: 10px;
+    }
+
+a {
+    text-decoration: none;
+}
+
+#purvoto {
+    background-color: lawngreen;
+    width: 100px;
+    align-items: center;
+}
+
+.Juventus {
+    width: 50px;
+    height: 50px;
+    padding-top: 7px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+    .Juventus:hover {
+        width: 60px;
+        height: 60px;
+        padding-top: 7px;
+        text-decoration: none;
+        padding-left: 10px;
+    }
+
+.Milan {
+    width: 45px;
+    height: 50px;
+    padding-top: 7px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+    .Milan:hover {
+        width: 55px;
+        height: 55px;
+        padding-top: 7px;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+.ManUnithed {
+    width: 50px;
+    height: 50px;
+    padding-top: 7px;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+    .ManUnithed:hover {
+        width: 60px;
+        height: 60px;
+        padding-top: 7px;
+        text-decoration: none;
+        padding-left: 10px;
+        padding-bottom: 5px;
+    }
+
+.Levski {
+    width: 40px;
+    height: 50px;
+    padding-top: 7px;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+    .Levski:hover {
+        width: 50px;
+        height: 60px;
+        padding-top: 7px;
+        text-decoration: none;
+        padding-left: 10px;
+    }
+
+.otborite {
+    background-color: grey;
+    height: 60px;
+}
+
+.menuhead #Menu1 ul {
+    list-style: none;
+}
+
+    .menuhead #Menu1 ul li a {
+        color: lawngreen;
+        text-align: center;
+    }
+
+    .menuhead #Menu1 ul:before {
+        margin-left: 20px;
+    }
+
+    .menuhead #Menu1 ul li {
+        padding-top: 15px;
+        padding-right: 15px;
+        list-style: none;
+    }

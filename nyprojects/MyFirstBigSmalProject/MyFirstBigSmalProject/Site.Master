@@ -1,0 +1,170 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true"
+    CodeBehind="Site.master.cs" Inherits="MyFirstBigSmalProject.SiteMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%: Page.Title %> - My ASP.NET Application</title>
+
+    <asp:PlaceHolder runat="server">
+        <%: Scripts.Render("~/bundles/modernizr") %>
+    </asp:PlaceHolder>
+    <webopt:BundleReference runat="server" Path="~/Content/css" />
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link href="MyStyles.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <form runat="server">
+        <asp:ScriptManager runat="server">
+            <Scripts>
+                <%--To learn more about bundling scripts in ScriptManager see http://go.microsoft.com/fwlink/?LinkID=301884 --%>
+                <%--Framework Scripts--%>
+                <asp:ScriptReference Name="MsAjaxBundle" />
+                <asp:ScriptReference Name="jquery" />
+                <asp:ScriptReference Name="bootstrap" />
+                <asp:ScriptReference Name="respond" />
+                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
+                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
+                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
+                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
+                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
+                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
+                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
+                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
+                <asp:ScriptReference Name="WebFormsBundle" />
+                <%--Site Scripts--%>
+            </Scripts>
+        </asp:ScriptManager>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/">СпорталЧОЧО</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="~/novini">Новини</a></li>
+                        <li><a runat="server" href="~/purvenstva">Първенства</a></li>
+                        <li><a runat="server" href="~/machove">Мачове</a></li>
+                    </ul>
+                    <asp:LoginView runat="server" ViewStateMode="Disabled">
+                        <AnonymousTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/Account/Register">Регистрация</a></li>
+                                <li><a runat="server" href="~/Account/Login">Вход</a></li>
+                            </ul>
+                        </AnonymousTemplate>
+                        <LoggedInTemplate>
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a runat="server" href="~/Account/Manage" title="Manage your account">Hello, <%: Context.User.Identity.GetUserName()  %> !</a></li>
+                                <li>
+                                    <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/" OnLoggingOut="Unnamed_LoggingOut" />
+                                </li>
+                            </ul>
+                        </LoggedInTemplate>
+                    </asp:LoginView>
+                </div>
+            </div>
+        </div>
+        <asp:Label runat="server" class="ob6head" ID="always">
+        <div class="otborite">
+                <div>
+                    <a href="/chelsea">
+                        <asp:Image runat="server" ToolTip="Челси" class="Chelsea" src="http://profootball.bg/wp-content/uploads/2016/10/630b.png" />
+                    </a>
+                    <a href="Liverpool">
+                        <asp:Image runat="server" CssClass="liverpool" ToolTip="Ливърпул" src="https://s-media-cache-ak0.pinimg.com/originals/da/de/cf/dadecf2eb40502838cf7f789aab5a828.jpg" />
+                    </a>
+                    <a href="ManUnithed">
+                        <asp:Image runat="server" ToolTip="Ман Юнайтед" CssClass="ManUnithed" src="http://manutd-bulgaria.com/mnt3d/wp-content/uploads/2013/02/manchesterunited.png" />
+                    </a>
+                    <a href="Arsenal">
+                        <asp:Image runat="server" ToolTip="Арсенал" class="ManUnithed" src="https://bet-bg.com/wp-content/uploads/2017/01/Arsenal_FC.bet365.png" />
+                    </a>
+                    <a href="ManCity">
+                        <asp:Image runat="server" ToolTip="Ман Сити" class="ManUnithed" src="http://bet-bg.com/wp-content/uploads/2017/01/Manchester_City_FC_-300x300.png" />
+                    </a>
+                    <a href="Everton">
+                        <asp:Image runat="server" ToolTip="Евъртън" class="ManUnithed" src="http://profootball.bg/wp-content/uploads/2016/12/650.png" />
+                    </a>
+                    <a href="leicester">
+                        <asp:Image runat="server" ToolTip="Лестър Сити" class="ManUnithed" src="http://bet-bg.com/wp-content/uploads/2017/01/leicester-city.png" />
+                    </a>
+                    <a href="tottenham">
+                        <asp:Image runat="server" ToolTip="Тотнъм" class="ManUnithed" src="http://bet-bg.com/wp-content/uploads/2017/01/Tottenham_Hotspur-152x300.png" />
+                    </a>
+                    <a href="RealMadrid">
+                        <asp:Image runat="server" ToolTip="Реал Мадрид" class="ManUnithed" src="https://lh3.googleusercontent.com/ZWmuJuXIKQ4jWvZniwhVci-VMUliBQbTnQ1kM3nU3tAdfj4R_WgPrL61JlFwjK39Nw=w300" />
+                    </a>
+                    <a href="Barselona">
+                        <asp:Image runat="server" ToolTip="Барселона" CssClass="Barselona" src="http://2.bp.blogspot.com/-AjfAudNVzaY/U_aAa1P_7-I/AAAAAAAADtY/dp4aPJOSTBA/s1600/Logo%2BBarcelona%2BFC.png" />
+                    </a>
+                    <a href="Atletiko">
+                        <asp:Image runat="server" ToolTip="Атлетико Мадрид" class="ManUnithed" src="https://sport.bg/userfiles/categoryimages/image_f90a3f4a594f75e15b3dfbe14e5cc9cf.jpg" />
+                    </a>
+                    <a href="PSJ">
+                        <asp:Image runat="server" ToolTip="ПСЖ" class="ManUnithed" src="http://ludogorec.net/uploads/_teams/team_101.png" />
+                    </a>
+                    <a href="Monako">
+                        <asp:Image runat="server" ToolTip="Монако" class="Monako" src="https://www.seeklogo.net/wp-content/uploads/2013/10/as-monaco-fc-current-vector-logo.png" />
+                    </a>
+                    <a href="Bayern">
+                        <asp:Image runat="server" ToolTip="Байерн Мюнхен" class="ManUnithed" src="http://evbet.eu/wp-content/uploads/2016/08/Bayern-300x300.png" />
+                    </a>
+                    <a href="Borusia">
+                        <asp:Image runat="server" ToolTip="Борусия Дортмунд" class="ManUnithed" src="http://prikachi.com/images/202/6804202Z.png" />
+                    </a>
+                    <a href="Juventus">
+                        <asp:Image runat="server" ToolTip="Ювентус" class="Juventus" src="http://mach.bg/uploads/media/team/0001/01/thumb_56_team_gallery_small.png" />
+                    </a>
+                    <a href="Milan">
+                        <asp:Image runat="server" ToolTip="Милан" class="Milan" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/AC_Milan.svg/150px-AC_Milan.svg.png" />
+                    </a>
+                    <a href="Inter">
+                        <asp:Image runat="server" ToolTip="Интер" class="ManUnithed" src="https://seeklogo.com/images/I/Inter_FC-logo-A600D6151E-seeklogo.com.png" />
+                    </a>
+                    <a href="Roma">
+                        <asp:Image runat="server" ToolTip="Рома" class="ManUnithed" src="http://bet-bg.com/wp-content/uploads/2017/01/Roma_logo_.png" />
+                    </a>
+                    <a href="Napoli">
+                        <asp:Image runat="server" ToolTip="Наполи" class="ManUnithed" src="http://www.bgbets.com/wp-content/uploads/2016/09/napoli.png" />
+                    </a>
+                    <a href="Levski">
+                        <asp:Image runat="server" ToolTip="Левски" CssClass="Levski" src="http://bgclubs.eu/images/logos/oldlogos/10103/1.png" />
+                    </a>
+                    <a href="Ludogorec">
+                        <asp:Image runat="server" ToolTip="Лудогорец" class="ManUnithed" src="http://bgclubs.eu/images/logos/10228.png" />
+                    </a>
+                    <a href="CSKA">
+                        <asp:Image runat="server" ToolTip="ЦСКА-София" class="ManUnithed" src="data:image/png;base64,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" />
+                    </a>
+                </div>
+            </div>
+        </asp:Label>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p class="text-center">&copy; <%: DateTime.Now.Year %> - Всички Права Се Продават На Разумна Цена! &copy; </p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
+
+
+
+
+
+

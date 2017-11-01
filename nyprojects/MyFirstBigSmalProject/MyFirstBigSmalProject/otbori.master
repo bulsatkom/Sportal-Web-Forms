@@ -1,0 +1,123 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="otbori.master.cs" Inherits="MyFirstBigSmalProject.otbori" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <br />
+    <br />
+    <br />
+    <div class="conteiner">
+        <div class="row">
+            <div class="col-md-2 "></div>
+            <div class="col-md-9 border4e">
+                <asp:ContentPlaceHolder ID="zaglavie" runat="server"></asp:ContentPlaceHolder>
+                <div class="row">
+                    <div class="col-md-3">
+                        <br />
+                        <br />
+                        <span class="image">
+                            <asp:ContentPlaceHolder ID="imageholder" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </span>
+                    </div>
+                    <br />
+                    <br />
+                    <div class="col-md-8 otboricontent">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <span>Пълно Име</span>
+                                <br />
+                                <hr />
+                                <span>Прозвище</span>
+                                <br />
+                                <hr />
+                                <span>Основан</span>
+                                <br />
+                                <hr />
+                                <span>Държава</span>
+                                <br />
+                                <hr />
+                                <span>Град</span>
+                                <br />
+                                <hr />
+                                <span>Президент</span>
+                                <br />
+                                <hr />
+                                <span>Старши Треньор</span>
+                                <br />
+                                <hr />
+                                <span>Стадион</span>
+                                <br />
+                                <hr />
+                                <span>Капацитет</span>
+                                <br />
+                                <hr />
+                                <span>Вечни Съперници</span>
+                                <br />
+                                <hr />
+                                <span>Уеб Сайт</span>
+                                <br />
+                                <hr />
+                            </div>
+                            <div class="col-md-6">
+                                <asp:ContentPlaceHolder runat="server" ID="prozvi6te"></asp:ContentPlaceHolder>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <%--</div>
+        </div>
+    </div>--%>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+
+
+
+
+
+
+
+
+
+<%--<div class="col-md-9">
+                    <br />
+                    <br />
+                    <div class="otboricontent">
+                        <div class="row">
+                            <div class="col-md-6 teamscontent">
+                                <span>Пълно Име</span>
+                                <br />
+                                <hr />
+                                <span>Прозвище</span>
+                                <br />
+                                <hr />
+                                <span>Основан</span>
+                                <br />
+                                <hr />
+                                <span>Държава</span>
+                                <br />
+                                <hr />
+                                <span>Град</span>
+                                <br />
+                                <hr />
+                                <span>Президент</span>
+                                <br />
+                                <hr />
+                                <span>Старши Треньор</span>
+                                <br />
+                                <hr />
+                                <span>Стадион</span>
+                                <br />
+                                <hr />
+                                <span>Капацитет</span>
+                                <br />
+                                <hr />
+                                <span>Вечни Съперник</span>
+                                <br />
+                                <hr />
+                                <span>Уеб Сайт</span>
+                                <br />
+                                <hr />
+                            </div>--%>
